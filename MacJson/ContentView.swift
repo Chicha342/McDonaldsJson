@@ -29,6 +29,12 @@ struct ContentView: View {
                     Image(systemName: "person.circle")
                     Text("Account")
                 }
+            
+            DarkModeView()
+                .tabItem {
+                    Image(systemName: "folder.fill")
+                    Text("DarkMode")
+                }
         }
         .accentColor(.orange)
     }
